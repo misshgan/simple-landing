@@ -1,0 +1,332 @@
+
+/* HOME */ 
+
+.home {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.h1 {
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 47px;
+    line-height: 1.36;
+    color: #070707;
+}
+
+.header {
+    width: 940px;
+    margin: 0 auto;
+    border-bottom: 2px solid #828282;
+}
+
+.nav__list {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.nav__item {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav__item::first-letter {
+    text-transform: uppercase;
+}
+
+.nav__link {
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 1.4;
+
+    color: #828282;
+    text-decoration: none;
+
+    padding: 0 3px;
+
+    transition: 0.1s linear;
+}
+
+.nav__link_active {
+    color: #070707;
+}
+
+.nav__link:hover {
+    color: #070707;
+}
+
+.home__img {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+
+/* ABOUT ME */ 
+
+.about_me {
+    background-color: #F6F6F6;
+    padding-top: 110px;
+    padding-bottom: 80px;
+}
+
+.h2__about {
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 1.35;
+    text-align: center;
+
+    color: #070707;
+
+    margin-top: 0;
+}
+
+.about__text {
+    width: 480px;
+    margin: 0 auto;
+}
+
+.p__about {
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: center;
+
+    color: #070707;
+
+    margin-bottom: 50px;
+}
+
+.p__about:last-child {
+    margin-bottom: 0;
+}
+
+
+
+/* SKILLS */ 
+
+.skills {
+    width: 940px;
+    margin: 0 auto;
+
+    padding-top: 80px;
+    padding-bottom: 110px;
+}
+
+.h2__skills {
+    margin-top: 0;
+    margin-bottom: 40px;
+
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 1.35;
+    text-align: center;
+
+    color: #070707;
+}
+
+.span__skills {
+    display: block;
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: center;
+
+    color: #070707;
+
+    margin: 0;
+    margin-bottom: 80px;
+}
+
+.skills__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills__card {
+    width: 18%;
+}
+
+.skills__card img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 23px;
+}
+
+.skills__p {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.21;
+    text-align: center;
+
+    color: #828282;
+
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+.figma {
+    margin-bottom: 75px;
+}
+
+
+
+/* PORTFOLIO */ 
+
+.portfolio {
+    padding-top: 90px;
+    padding-bottom: 140px;
+    
+    background-color: #F6F6F6;
+}
+
+.portf__content {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.portfolio img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.portfolio h2 {
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 1.35;
+    text-align: center;
+
+    color: #070707;
+
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+.portf__a {
+    display: block;
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #070707;
+
+    margin-bottom: 100px;
+
+    transition: 0.1s linear;
+}
+
+.portf__a:last-child {
+    margin-bottom: 0;
+}
+
+.portf__a:hover {
+    color: #828282;
+}
+
+
+
+/* FOOTER */ 
+
+.contacts {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.contacts h2 {
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 1.35;
+    text-align: center;
+
+    color: #070707;
+
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.top__p {
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    
+    color: #070707;
+
+    margin-top: 0;
+    margin-bottom: 78px;
+}
+
+.message__button {
+    display: block;
+    width: 180px;
+    padding: 12px 6px;
+    margin: 0 auto;
+    margin-bottom: 37px;
+
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+    background-color: #070707;
+
+    text-decoration: none;
+    border-radius: 30px;
+
+    transition: 0.1s linear;
+}
+
+.message__button:hover {
+    color: #828282;
+}
+
+.icons {
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon_div {
+    width: 50px;
+    height: 50px;
+
+    margin-bottom: 40px;
+}
+
+.icon {
+    display: block;
+    width: 40px;
+    height: 40px;
+    transition: 0.1s linear;
+
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.icon:hover {
+    opacity: 0.75;
+    width: 45px;
+    height: 45px;
+}
+
+.bottom__p {
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #828282;
+}
+
